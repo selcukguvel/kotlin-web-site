@@ -111,7 +111,7 @@ module.exports = (params = {}) => {
           }
         },
         {
-          test: /\.(woff|ttf)$/,
+          test: /\.(woff2?|ttf)$/,
           loader: 'file-loader',
           options: {
             name: '[path][name].[ext]'
